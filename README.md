@@ -1,8 +1,19 @@
-# Bitlatte.io
-This repository is the codebase for the bitlatte.io website. It will remain private as only bitlatte.io developers should be allowed to make or propose changes to the codebase.
+# Vite-React
+This is a boilerplate React app with Vite instead of create-react-app.
+it results in a smaller bundle size and faster performance. Plus it is
+pre-loaded with a bunch of extra goodies and is still smaller in
+comparison to create-react-app
 
-## Purpose
-The website is stored here so that we can integrate a CI solution that will always push the latest version of the website when it is ready. Also a lot of hosting platforms have made it quite easy to host a react based app/website using a git repo.
+## Included With Vite-React
+- WindiCSS
+- React Router
+- React Icons
+- Typescript Support
 
-## Developing
-While developing new features please create a new branch to work on implementing the feature. Once the feature is ready for production, you may submit a merge request to the main branch.
+## How to use
+For now just clone the repo but I am working on a cli that will give you
+more options on how the project is configured out of the box.
+
+```sh
+$> git clone https://github.com/Bitlatte/vite-react.git
+```
