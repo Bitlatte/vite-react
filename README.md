@@ -36,3 +36,18 @@ $> cd example
 $> npm install
 $> npm run dev
 ```
+
+#### Notice
+If you plan on pushing your code to your own repo then you need to update the
+git remote by using the following commands replacing the repository and username
+with your username and the repository you wish to push the code to:
+
+```sh
+$> git remote rm origin
+$> git remote add origin https://github.com/<username>/<repository>.git
+```
+
+## TypeScript
+By default this project has TypeScript support. It is best practice to
+use TypeScript since it provides amazing type checking to make sure
+your code is as error free as possible before shipping to production.
