@@ -1,10 +1,8 @@
-import Logo from '../assets/Bitlatte.svg?component'
 import Vite from '../assets/vitejs.png'
 import React from '../assets/reactjs.png'
 import ReactIcons from '../assets/react-icons.png'
 import ReactRouter from '../assets/react-router.png'
 import WindiCSS from '../assets/windicss.png'
-import { ReactElement } from 'react'
 
 export const Home = () => {
     return (
