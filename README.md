@@ -11,9 +11,28 @@ comparison to create-react-app
 - Typescript Support
 
 ## How to use
-For now just clone the repo but I am working on a cli that will give you
-more options on how the project is configured out of the box.
+To get started simply clone the repo replacing \<project_name\> with any
+name you desire:
 
 ```sh
-$> git clone https://github.com/Bitlatte/vite-react.git
+$> git clone https://github.com/Bitlatte/vite-react.git <project_name>
+```
+
+then cd into the new directory and run the following commands:
+
+```sh
+$> npm install
+$> npm run dev
+```
+
+Once you have completed those steps you should have a development server
+running on port 3000 on your local machine and you're ready to start
+developing your project!
+
+#### Example
+```sh
+$> git clone https://github.com/Bitlatte/vite-react.git example
+$> cd example
+$> npm install
+$> npm run dev
 ```
