@@ -11,7 +11,7 @@ comparison to create-react-app
 - Typescript Support
 
 ## How to use
-To get started us the @bitlatte/react npx command:
+To get started use the @bitlatte/react npx command:
 
 ```sh
 $> npx @bitlatte/react <project_name>
