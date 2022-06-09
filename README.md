@@ -11,41 +11,13 @@ comparison to create-react-app
 - Typescript Support
 
 ## How to use
-To get started simply clone the repo replacing \<project_name\> with any
-name you desire:
+To get started us the @bitlatte/react npx command:
 
 ```sh
-$> git clone https://github.com/Bitlatte/vite-react.git <project_name>
+$> npx @bitlatte/react <project_name>
 ```
 
-then cd into the new directory and run the following commands:
-
-```sh
-$> npm install
-$> npm run dev
-```
-
-Once you have completed those steps you should have a development server
-running on port 3000 on your local machine and you're ready to start
-developing your project!
-
-#### Example
-```sh
-$> git clone https://github.com/Bitlatte/vite-react.git example
-$> cd example
-$> npm install
-$> npm run dev
-```
-
-#### Notice
-If you plan on pushing your code to your own repo then you need to update the
-git remote by using the following commands replacing the repository and username
-with your username and the repository you wish to push the code to:
-
-```sh
-$> git remote rm origin
-$> git remote add origin https://github.com/<username>/<repository>.git
-```
+Then follow the instructions on screen.
 
 ## TypeScript
 By default this project has TypeScript support. It is best practice to
