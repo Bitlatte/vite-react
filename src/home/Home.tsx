@@ -8,9 +8,9 @@ export const Home = () => {
     return (
         <div className={'flex justify-center items-center h-screen bg-light-200'}>
             <div className={'flex justify-center flex-col items-center w-2/3'}>
-                <h1 className={'text-8xl font-bold'}>157 MB</h1>
-                <h1 className={'text-2xl font-semibold mt-5'}>Yes that number is correct and uncompressed</h1>
-                <h1 className={'text-xl font-light text-gray-500'}>For the love of small bundle sizes</h1>
+                <img className={'w-40 h-auto'} src={React} />
+                <h1 className={'text-2xl font-semibold mt-5'}>ReactJS</h1>
+                <h1 className={'text-xl font-light text-gray-500'}>For the love of reactivity</h1>
                 <div className={'grid grid-cols-2 mt-10 gap-3'}>
                     <Card
                         title={'Vite'}
