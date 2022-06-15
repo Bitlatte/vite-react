@@ -11,10 +11,10 @@ comparison to create-react-app
 - Typescript Support
 
 ## How to use
-To get started use the @bitlatte/react npx command:
+To get started use the bitgen npx command:
 
 ```sh
-$> npx @bitlatte/react <project_name>
+$> npx bitgen -r <project_name>
 ```
 
 Then follow the instructions on screen.
